@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SEEMS_help_about</class>
+ <widget class="QDialog" name="SEEMS_help_about">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SEEMS - About</string>
+  </property>
+  <widget class="QPushButton" name="btn_OK">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>250</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_SEEMS_about">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>451</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;SEEMS - Socio-Econ-Ecosystem Multipurpose Simulator&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;v 0.9.0&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Created by Liyan Xu and Hongmou Zhang&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;@MIT&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;2015.6.9&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
